@@ -7,7 +7,7 @@
 //Global variable
 var video = document.getElementById("example");
 var videoSource = document.getElementById("vid-src");
-var descriptionSource = document.getElementById("despsrc")
+var descriptionSource = document.getElementById("despsrc");
 
 //Hamburger menu function
 function hamburger() {
@@ -23,7 +23,7 @@ function hamburger() {
 }
 
 //Function to display the burpees example video
-fuction burpees() {
+function burpees() {
   videoSource.src = "media/burpees.mp4";
   descriptionSource.src = "media/burpees-descriptions.vtt";
   video.style.display = "block";
@@ -41,7 +41,7 @@ function plank() {
 //Function to display the mountain climbers example video
 function mountain() {
   videoSource.src = "media/mc.mp4";
-  descriptionSouce.src = "media/mountain-descriptions.vtt";
+  descriptionSource.src = "media/mountain-descriptions.vtt";
   video.style.display = "block";
   video.load();
 }
